@@ -2,3 +2,35 @@
 @import url("navbar.css");
 @import url("buttons.css");
 @import url("cards.css");
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 2rem;
+}
+
+.bg-img {
+    background-image: url("../img/jumbo-bg.png");
+    height: 650px;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.title .position-relative {
+    top: -32px;
+}
+
+.slidebar-img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.slidebar-img:hover {
+    transform: translateY(-1rem);
+    padding: 0.2rem;
+    border: 1px solid var(--bs-primary);
+}
