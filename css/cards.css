@@ -1,0 +1,28 @@
+.slidebar-img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.slidebar-img:hover {
+    transform: translateY(-1rem);
+    padding: 0.2rem;
+    border: 1px solid var(--bs-primary);
+}
+
+.cards-console-img img {
+    width: 50%;
+    opacity: 0.5;
+}
+
+.cards-console {
+    cursor: pointer;
+}
+
+.cards-console:hover {
+    opacity: 1;
+    border-bottom: 3px solid var(--bs-primary);
+}
+
+.cards-console:hover .cards-console-img img {
+    opacity: 1;
+}
