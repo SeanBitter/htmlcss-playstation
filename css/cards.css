@@ -1,16 +1,17 @@
-.slidebar-img {
+.cards-img {
     border-radius: 10px;
     width: 100%;
+    margin-bottom: 0.5rem;
 }
 
-.slidebar-img:hover {
+.cards-img:hover {
     transform: translateY(-1rem);
     padding: 0.2rem;
     border: 1px solid var(--bs-primary);
 }
 
 .cards-console-img img {
-    width: 50%;
+    width: 60%;
     opacity: 0.5;
 }
 

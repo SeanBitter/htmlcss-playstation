@@ -31,3 +31,11 @@ h2, h3, h4, h5, h6 {
 .new-gen.position-relative {
     top: 170px;
 }
+
+.bg-img.it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.it-takes-two .position-relative {
+    top: -60px;
+}
