@@ -1,0 +1,35 @@
+.btn {
+    border-width: 2px;
+}
+
+.btn-play-plus {
+    background-color: #cccbcb;
+    border-color: #cccbcb;
+    color: var(--bs-primary);
+}
+
+.btn-play-plus:hover {
+    color: var(--bs-info);
+    border-color: white;
+    box-shadow: 0 0 0 2px #999999;
+}
+
+.btn-danger:hover {
+    border-color: rgb(150, 32, 32);
+    box-shadow: 0 0 0 2px #dc3545;
+}
+
+.btn-dark:hover {
+    border-color: rgb(54, 55, 61);
+    box-shadow: 0 0 0 2px #1c1f23;
+}
+
+.btn-primary:hover {
+    border-color: rgb(44, 82, 205);
+    box-shadow: 0 0 0 2px #0b5ed7;
+}
+
+.btn-light:hover {
+    border-color:rgb(161, 169, 198);
+    box-shadow: 0 0 0 2px #f9fafb;
+}
