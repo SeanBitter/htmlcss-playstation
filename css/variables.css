@@ -3,4 +3,10 @@
 
     --bs-secondary: #1F1F1F;
     --bs-secondary-rgb: 31, 31, 31;
+
+    --bs-light: #bebcbb;
+    --bs-light-rgb: 190, 188, 187;
+
+    --bs-info: #161c3b;
+    --bs-info-rgb: 22, 28, 59;
 }

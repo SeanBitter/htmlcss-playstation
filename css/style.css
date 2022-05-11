@@ -9,16 +9,21 @@ h2, h3, h4, h5, h6 {
 
 .bg-img {
     background-image: url("../img/jumbo-bg.png");
-    height: 650px;
+    min-height: 600px;
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
 }
 
-.section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.section:not(.section-no-p) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
+
+/* .section.console .my-py {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+} */
 
 .title .position-relative {
     top: -40px;
@@ -38,4 +43,13 @@ h2, h3, h4, h5, h6 {
 
 .it-takes-two .position-relative {
     top: -60px;
+}
+
+.ps-plus-img img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
 }
