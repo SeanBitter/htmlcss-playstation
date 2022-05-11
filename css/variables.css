@@ -7,6 +7,9 @@
     --bs-light: #bebcbb;
     --bs-light-rgb: 190, 188, 187;
 
-    --bs-info: #161c3b;
-    --bs-info-rgb: 22, 28, 59;
+    --bs-success: #161c3b;
+    --bs-success-rgb: 22, 28, 59;
+
+    --bs-info: #0070d1;
+    --bs-info-rgb: 0, 112, 209;
 }
