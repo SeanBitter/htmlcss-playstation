@@ -18,23 +18,26 @@
     border: 2px solid var(--bs-primary);
 }
 
-.cards-console-img img, .console-img-one img {
-    width: 60%;
-}
-
 .cards-console {
     cursor: pointer;
+}
+
+.cards-console-img img, .console-img-one img {
+    width: 60%;
 }
 
 .card-console-one {
     border-bottom: 3px solid var(--bs-primary);
 }
 
+.img-opacity {
+    opacity: 0.5;
+}
+
 .cards-console:hover {
-    opacity: 1;
     border-bottom: 3px solid var(--bs-primary);
 }
 
-.cards-console:hover .cards-console-img img {
+.cards-console:hover .cards-console-img {
     opacity: 1;
 }
