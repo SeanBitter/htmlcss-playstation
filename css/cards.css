@@ -22,8 +22,8 @@
     cursor: pointer;
 }
 
-.cards-console-img img, .console-img-one img {
-    width: 60%;
+.cards-console-img img {
+    width: 100%;
 }
 
 .card-console-one {
@@ -37,4 +37,10 @@
 .cards-console:hover {
     border-bottom: 3px solid var(--bs-primary);
     opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .cards-console-img img {
+        width: 50%;
+    }
 }
