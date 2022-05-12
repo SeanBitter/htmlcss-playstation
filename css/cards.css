@@ -36,8 +36,5 @@
 
 .cards-console:hover {
     border-bottom: 3px solid var(--bs-primary);
-}
-
-.cards-console:hover .cards-console-img {
     opacity: 1;
 }

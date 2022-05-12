@@ -10,26 +10,26 @@
 
 .btn-play-plus:hover {
     color: var(--bs-info);
-    border-color: white;
-    box-shadow: 0 0 0 2px #999999;
+    border-color: rgb(43, 117, 191);
+    box-shadow: 0 0 0 2px #cccbcb;
 }
 
 .btn-danger:hover {
-    border-color: rgb(150, 32, 32);
+    border-color: rgb(232, 220, 220);
     box-shadow: 0 0 0 2px #dc3545;
 }
 
 .btn-dark:hover {
-    border-color: rgb(54, 55, 61);
+    border-color: rgb(173, 173, 173);
     box-shadow: 0 0 0 2px #1c1f23;
 }
 
 .btn-primary:hover {
-    border-color: rgb(44, 82, 205);
+    border-color: rgb(170, 177, 199);
     box-shadow: 0 0 0 2px #0b5ed7;
 }
 
 .btn-light:hover {
-    border-color:rgb(161, 169, 198);
+    border-color:rgb(71, 73, 80);
     box-shadow: 0 0 0 2px #f9fafb;
 }

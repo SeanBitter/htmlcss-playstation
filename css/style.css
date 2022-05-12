@@ -52,3 +52,12 @@ footer li {
     width: auto;
     height: 100%;
 }
+
+.fa-registered {
+    position: relative;
+    top: -0.5rem;
+}
+
+.fa-copyright {
+    width: 1rem;
+}
